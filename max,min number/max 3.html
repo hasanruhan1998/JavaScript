@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let service1 = (prompt('Enter First Number'));
+        let service2 = (prompt('Enter Second Number'));
+        let service3 = (prompt('Enter Third Number'));
+        let service4 = (prompt('Enter Fourth Number'));
+
+        maxNumber = 0
+        minNumber = 0
+
+        if (service1 > service2 && service1 > service3 && service1 > service4) {
+            maxNumber = service1;
+        }
+        else if
+            (service2 > service1 && service2 > service3 && service2 > service4) {
+            maxNumber = service2;
+        }
+        (service3 > service1 && service3 > service2 && service3 > service4) {
+            maxNumber = service3;
+        }
+
+
+        else {
+            maxNumber = service4;
+        }
+
+        //          minNumber
+
+        if (service1 < service2 && service1 < service3 && service1 < service4) {
+            minNumber = service1;
+        }
+        else if
+            (service2 < service1 && service2 < service3 && service2 < service4) {
+            minNumber = service2;
+        }
+
+        else if
+            (service3 < service1 && service3 < service2 && service3 < service4) {
+            minNumber = service3;
+        }
+
+
+        else {
+            minNumber = service4;
+
+        }
+
+
+        document.write(maxNumber + "</br>");
+        document.write(minNumber);
+
+    </script>
+</body>
+
+</html>

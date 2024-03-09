@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let myAr=[60,62,25,55,65,48,95];
+
+        for(let not1=0; not1<myAr.length;not1++){
+            for(let not2=0; not2<myAr.length-not1-1;not2++){
+                if(myAr[not2]>myAr[not2+1]){
+                    let temp=myAr[not2];
+                    myAr[not2]=myAr[not2+1];
+                    myAr[not2+1]=temp;
+
+
+
+                }
+
+            }
+
+        }
+        document.write(myAr);
+
+    </script>
+</body>
+</html>

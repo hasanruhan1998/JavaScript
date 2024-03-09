@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let num1 = prompt('Enter First Number');
+        let num2 = prompt('Enter Secand Number');
+        let num3 = prompt('Enter third Number');
+        let num4 = prompt('Enter Fourth Number');
+
+
+
+        let maxNunber = 0;
+
+        if (num1 > num2 && num1>num3 && num1>num4) {
+            maxNunber = num1;
+        }
+        else if (num2 > num1 && num2>num3 && num2>num4) {
+            maxNunber = num2;
+        }
+        else if (num3 > num1 && num3>num2 && num3>num4) {
+            maxNunber = num3;
+        }
+        
+
+
+
+
+
+        else {
+            maxNunber = 4;
+
+        }
+        document.write(maxNunber)
+    </script>
+</body>
+
+</html>
