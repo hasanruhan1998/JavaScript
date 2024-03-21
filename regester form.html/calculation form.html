@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Unite Price  <input type="text" id="uniteprice"> <br><br>
+    Quantity <input type="text" id="quantity" onchange="getTotalPrice()"> <br><br>
+    Total Price  <input type="text" id="totalPrice"> <br><br>
+    Discount   <input type="text" id="discount"> <br><br>
+    Discount Amount   <input type="text" id="discountamount"> <br><br>
+    Actual Price   <input type="text" id="actualprice"> <br><br>
+
+    <script>
+       
+     let  uniteprice =document.getElementById('uniteprice').value;
+     let  quantity =document.getElementById('quantity').value;
+     let  totalquantity =document.getElementById('totalPrice').value;
+   
+        let  uniteprice =document.getElementById('uniteprice').value;
+     let  quantity =document.getElementById('quantity').value;
+     let  totalquantity =document.getElementById('totalPrice').value;
+
+     totalPrice = uniteprice *  quantity;
+     document.getElementById('totalPrice').value = totalPrice;
+  
+    </script>
+</body>
+</html>
