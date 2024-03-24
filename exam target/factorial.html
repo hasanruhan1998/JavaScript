@@ -7,14 +7,17 @@
 </head>
 <body>
     <script>
-        let userInput=prompt("Pls entr the Number");
+    let userInput=prompt("Pls enter the Number ");
         let factorial=1;
+        
+        for(let i=userInput; i>1; i--){
 
-        for(let a=userInput; a>1; a-- ){
-            factorial*=a;
+           factorial *=i; 
 
         }
+
         document.write(factorial);
     </script>
+    
 </body>
 </html>

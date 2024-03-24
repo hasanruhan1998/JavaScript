@@ -7,14 +7,14 @@
 </head>
 <body>
     <script>
-        let userInput=prompt("Pls entr the Number");
-        let factorial=1;
-
-        for(let a=userInput; a>1; a-- ){
-            factorial*=a;
-
+        let emaile=prompt("Enter Email Address");
+        const regEx= /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if(regEx.test(emaile)){
+            alert("Correct Emaile")
         }
-        document.write(factorial);
+        else{
+            alert("Uncorrect Emaile")
+        }
     </script>
 </body>
 </html>

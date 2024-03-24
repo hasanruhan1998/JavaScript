@@ -8,26 +8,31 @@ function submitForm(event) {
     // let   Hobby =document.querySelectorAll('input[name"Hobby"]checked');
 
 
-// logic start
-if ( fName==''){
-    alert('j  jg fdkfdkl.');
-    return;
+    // logic start
+    if (fName == '') {
+        alert('j  jg fdkfdkl.');
+        return;
 
-}
-else if (fName.length<=3){
-    alert ('fjdskdndvblk');
-    return;
-}
+    }
+    else if (fName.length <= 3) {
+        alert('fjdskdndvblk');
+        return;
+    }
 
-const regEx= /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-if(regEx.){
+    const regEx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (regEx.) {
 
-}
-   
-   
-   
-   
-   
+    }
+
+    // validation
+    if(password.length<6 || password.length {
+
+    }
+
+
+
+
+
     let outPut = 'Name:' + fName + " \n";
     outPut += 'email:' + email + " \n";
     outPut += 'password:' + password + " \n";

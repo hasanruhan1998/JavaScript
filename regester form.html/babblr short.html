@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>   
+
+<body>
+    <script>
+        
+
+    let myArry=[50,10,30,20,80,50,100,300,120,];
+
+    for(let one=0;one<myArry.length;one++){
+    for(let two=0;two<myArry.length-one-1;two++)   {
+        if(myArry[two]>myArry[two+1]){
+            let temp=myArry[two];
+            myArry[two]=myArry[two+1];
+            myArry[two+1]=temp;
+
+        }
+
+
+    }
+
+    }
+    document.write(myArry+"<br>");
+
+</script>
+</body>
+</html>
