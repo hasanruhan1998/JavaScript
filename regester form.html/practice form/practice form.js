@@ -12,13 +12,13 @@ function submitForm(event) {
     let hobby = document.querySelectorAll("input[name='hobby']:checked");
 
     let hobbyValue = [];
-for(let i=0; i<hobby.length; i++){
-    hobbyValue.push(hobby[i].value);
+    for (let i = 0; i < hobby.length; i++) {
+        hobbyValue.push(hobby[i].value);
 
-}
-let address = document.getElementById("address").value;
-let select  = document.getElementById("select").value;
-let date  = document.getElementById("date").value;
+    }
+    let address = document.getElementById("address").value;
+    let select = document.getElementById("select").value;
+    let date = document.getElementById("date").value;
 
 
 
@@ -28,8 +28,8 @@ let date  = document.getElementById("date").value;
     outPut += "cellnumber:" + cellnumber + '\n';
     outPut += "gender:" + gender + '\n';
     outPut += "hobby:" + hobbyValue + '\n';
-    outPut += "address:" +address + '\n';
-    outPut += "date:" +date  + '\n';
+    outPut += "address:" + address + '\n';
+    outPut += "date:" + date + '\n';
 
 
 
@@ -39,7 +39,7 @@ let date  = document.getElementById("date").value;
     newWindow.document.write('<pre>' + outPut + '<pre>');
 }
 let myForm = document.getElementById("myForm");
-myForm.addEventListener("submit", submitForm);            
+myForm.addEventListener("submit", submitForm);
 
 
 

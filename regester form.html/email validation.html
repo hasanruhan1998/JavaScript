@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let emaile = prompt("Enter Email Address");
+        const pattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if (pattern.test(emaile)) {
+            alert("Correct Emaile Address");
+        }
+        else {
+            alert('Wrong Emaile Address');
+        }
+    </script>
+</body>
+
+</html>
