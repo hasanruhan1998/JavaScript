@@ -5,7 +5,7 @@ function submitForm(event) {
     let fName = document.getElementById('name').value;
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
-    // let   Hobby =document.querySelectorAll('input[name"Hobby"]checked');
+    let   Hobby =document.querySelectorAll('input[name"Hobby"]checked');
 
 
     // logic start
